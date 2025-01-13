@@ -14,7 +14,7 @@ const randomList = ["important reminder", 77, ["another array"], true];
 
 const faveFoods = ["pizza", "pasta", "burger"];
 
-console.log(favesFood);
+console.log(faveFoods);
 
 const faveColours = ["purple", "red", "blue"];
 
@@ -24,9 +24,9 @@ const faveNumbers = [7, 4, 3, 13];
 
 console.log(faveNumbers);
 
-for (let i = 0; i < 5; i++) {
-  console.log("iteration", i);
-}
+// for (let i = 0; i < 5; i++) {
+//   console.log("iteration", i);
+// }
 
 let counter = 1;
 
@@ -36,10 +36,10 @@ while (counter <= 5) {
 }
 
 let keepLooping = true;
-let i = 0;
-while (keepLooping === ture) {
+let i = Infinity;
+while (keepLooping === true) {
   console.log("iteration", i);
-  keepLooping.Math.random() < 0.1;
+  keepLooping = Math.random() < 0.1;
   i++;
 }
 
@@ -48,7 +48,7 @@ for (let food of foods) {
   console.log(food);
 }
 
-const faveouriteNumbers = [1, 2, 3, 4, infinity];
+const faveouriteNumbers = [1, 2, 3, 4, Infinity];
 for (let number of faveouriteNumbers) {
   console.log(number);
 }
@@ -60,3 +60,20 @@ foods.forEach(function (food) {
 foods.forEach(function (food, index) {
   console.log(index, food);
 });
+
+const faveouriteAnimals = ["dog", "cat", "Snake"];
+for (let animal of faveouriteAnimals) {
+  console.log(animal);
+}
+
+for (colours of faveColours) {
+  console.log(colours);
+}
+
+for (numbers of faveNumbers) {
+  console.log(numbers[i]);
+}
+
+for (let i = 0; i < Infinity; i++) {
+  counter++;
+}
